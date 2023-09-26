@@ -1,4 +1,7 @@
 
+header{
+    padding: 40px;
+}
 header > ul {
     display: flex;
     align-items: center;
@@ -9,4 +12,37 @@ header > ul {
 ul > li{
     display: flex;
     gap: 20px;
+    color: #E5E7EB;
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.description > div > b{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    
+}
+.description > div > .small-text{
+    color: #E5E7EB;
+    font-size: 18px;
+    inline-size: 400px;
+}
+    .rectangle {
+    margin-right: 9%;
+}
+.description > div > button{
+    margin-top: 10px;
+    top: 50%;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
 }

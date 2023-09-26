@@ -3,9 +3,11 @@ html, body{
 }
 header, .description {
     background-color: #1f2937;
-    margin: 0;
     display: flex;
     justify-content: space-around;
+}
+header > .description > div{
+    padding-bottom: 40px;
 }
 a{
     color: #F9FAF8;
