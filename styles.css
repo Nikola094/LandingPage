@@ -51,21 +51,30 @@ ul > li{
     display: flex;
     justify-content: center;
     padding: 50px 200px 50px 200px;
-    flex-basis: 100%;
+    flex: 1 1 0;
+    padding: 100px;
 }
 .sign-up-text{
     background-color: #3882F6;
-    padding: 50px 200px 50px 200px;
+    padding: 50px 30px 50px 200px;
+    color: #F9FAF8;
 }
-.sign-up > button{
-    margin-top: 10px;
-    top: 50%;
+
+
+.sign-up-div{
+    display: flex;
+    padding: 0 100px 0 20px;
+    background-color: #3882F6;
+
+}
+
+.sign-up-div > button {
+    margin: 70px ;
     background-color: #3882F6;
     color: #E5E7EB;
-    border: none;
-    border-radius: 10px;
-    font-size: 18px;
+    border: solid #F9FAF8;
+    border-radius: 20px;
+    font-size: 15px;
     font-weight: bold;
-    padding: 10px 25px 10px 25px;
-
+    padding: 10px 55px 10px 55px;
 }
