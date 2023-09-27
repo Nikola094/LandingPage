@@ -37,3 +37,22 @@ figcaption {
     font-weight: 800;
     color: #1F2937;
 }
+.quote {
+    padding: 150px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.quote > p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote > .thor {
+    display: flex;
+    font-size: 18px;
+    font-weight: 800;
+    flex-direction: row-reverse;
+}

@@ -46,3 +46,26 @@ ul > li{
     font-weight: bold;
     padding: 10px 25px 10px 25px;
 }
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px 50px 200px;
+    flex-basis: 100%;
+}
+.sign-up-text{
+    background-color: #3882F6;
+    padding: 50px 200px 50px 200px;
+}
+.sign-up > button{
+    margin-top: 10px;
+    top: 50%;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+
+}
